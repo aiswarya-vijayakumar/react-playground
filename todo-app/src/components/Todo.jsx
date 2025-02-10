@@ -25,6 +25,7 @@ function Todo() {
   };
   return (
     <div className="card-outer-container">
+      <h4 className="heading">Simple Todo App</h4>
       <div className="card-container">
         <div className="add-item-container">
           <input
@@ -37,7 +38,6 @@ function Todo() {
           </button>
         </div>
 
-        <h4 style={{ textAlign: "center" }}>Simple Todo App</h4>
         <ul style={{ padding: 0 }}>
           {todoList.map((item) => (
             <li className="todo-item">

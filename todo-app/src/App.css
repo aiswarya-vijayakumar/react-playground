@@ -1,6 +1,9 @@
-.card-outer-container {
-  background: black;
-  height: 100vh;
+.heading {
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
 .add-item-container {
   display: flex;
@@ -13,7 +16,7 @@
 }
 
 .card-container {
-  background: linear-gradient(to right, crimson, black);
+  background: teal;
   color: white;
   padding: 2rem;
   border-radius: 8px;
@@ -23,6 +26,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .todo-item {
@@ -36,6 +40,7 @@
   overflow: auto;
   height: 40px;
   border-radius: 20px;
+  border: none;
 }
 
 .add-btn {
